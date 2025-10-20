@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_angular_provider">
+    <sp_angular_provider action="DELETE">
+        <name>deleteButtonConfirmv2</name>
+        <script><![CDATA[function(){
+return{
+	template:  '<div class="col-md-1"><button class="btn btn-danger pull-right" ng-click="c.confirmDelete()"><span class="glyphicon glyphicon-trash"></span></button></div>',
+	restrict: 'E' 
+	
+};
+}]]></script>
+        <sys_class_name>sp_angular_provider</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 09:01:46</sys_created_on>
+        <sys_id>0a7eb90c93f076105a46fcb6dd03d6d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>deleteButtonConfirmv2</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sp_angular_provider_0a7eb90c93f076105a46fcb6dd03d6d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 09:01:46</sys_updated_on>
+        <type>directive</type>
+    </sp_angular_provider>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</application>
+        <file_path/>
+        <instance_id>28734f132b77a6101c84f9f66e91bfe0</instance_id>
+        <instance_name>dev357745</instance_name>
+        <name>sp_angular_provider_0a7eb90c93f076105a46fcb6dd03d6d2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_angular_provider"&gt;&lt;sp_angular_provider action="INSERT_OR_UPDATE"&gt;&lt;name&gt;deleteButtonConfirmv2&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function(){
+return{
+	template:  '&lt;div class="col-md-1"&gt;&lt;button class="btn btn-danger pull-right" ng-click="c.confirmDelete()"&gt;&lt;span class="glyphicon glyphicon-trash"&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;',
+	restrict: 'E' 
+	
+};
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sp_angular_provider&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-20 09:01:46&lt;/sys_created_on&gt;&lt;sys_id&gt;0a7eb90c93f076105a46fcb6dd03d6d2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;deleteButtonConfirmv2&lt;/sys_name&gt;&lt;sys_package display_value="CreateNotes" source="x_snc_createnotes"&gt;df5fd9a5090232007f44e1046c8ff69f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CreateNotes"&gt;df5fd9a5090232007f44e1046c8ff69f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_angular_provider_0a7eb90c93f076105a46fcb6dd03d6d2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-20 09:01:46&lt;/sys_updated_on&gt;&lt;type&gt;directive&lt;/type&gt;&lt;/sp_angular_provider&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1500355624</payload_hash>
+        <record_name>deleteButtonConfirmv2</record_name>
+        <reverted_from/>
+        <source>45a5b34f93e832105a46fcb6dd03d6b4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 09:01:46</sys_created_on>
+        <sys_id>14be314c93f076105a46fcb6dd03d6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a00da6e4c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 09:01:46</sys_updated_on>
+        <type>Widget Angular Provider</type>
+        <update_guid>9cbeb188d1f076101de5070a18ab8d15</update_guid>
+        <update_guid_history>9cbeb188d1f076101de5070a18ab8d15:1500355624</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="deleteButtonConfirmv2">5cde3d0893f076105a46fcb6dd03d65d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 09:02:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_angular_provider">sp_angular_provider</sys_db_object>
+        <sys_id>9e908d479bbd43548141980771105610</sys_id>
+        <sys_metadata>0a7eb90c93f076105a46fcb6dd03d6d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>deleteButtonConfirmv2</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_scope_delete display_value="">64daa03572704d49a928bf08a985d6f9</sys_scope_delete>
+        <sys_update_name>sp_angular_provider_0a7eb90c93f076105a46fcb6dd03d6d2</sys_update_name>
+        <sys_update_version display_value="sp_angular_provider_0a7eb90c93f076105a46fcb6dd03d6d2">14be314c93f076105a46fcb6dd03d6ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 09:02:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
